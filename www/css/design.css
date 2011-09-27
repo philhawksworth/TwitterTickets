@@ -1,0 +1,204 @@
+body {
+	font-size: 14px; 
+    line-height: 1.4;
+	color: #333;
+	font-family: "HelveticaNeue-Roman", "Helvetica 55 Roman", Helvetica, Arial, sans-serif;
+	background-color:#e4e4e4;
+	padding:120px 0 40px 0;
+	border-left:dashed 12px #ccc;
+	border-right:dashed 12px #ccc;
+	
+}
+
+/* type */
+h1, h2, h3, 
+#listings > p.description {
+	font-family: "HelveticaNeue-Heavy", "Helvetica 85 Heavy", Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+}
+
+a {
+	color:#000;
+	text-decoration:underline;
+}
+a:hover {
+	color:#666;
+}
+
+h1#site_title {
+	height:100px;
+	width:500px;
+	background: transparent url(/images/ticket_bird.png) no-repeat;
+	overflow:none;
+	text-indent: 130px;
+	font-size:44px;
+	position:absolute;
+	top:-80px;
+	left:0;
+	padding:15px 0;
+	color:#41353F;
+}
+
+h2 {
+	font-size: 28px;
+	letter-spacing: -1px;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+a.twitter_link {
+	background-color:#41353F;
+	text-decoration:none;
+	color:#fff;
+	padding:2px 4px;
+}
+
+a.feed_link {
+	background-color:#E28E1E;
+	text-decoration:none;
+	color:#fff;
+	padding:2px 4px;
+}
+
+a.feed_link:hover,
+a.twitter_link:hover  {
+	background-color:#000;
+}
+
+
+div.wrapper {
+	width:800px;
+	background-color:#fff;
+	border:solid 1px #ccc;
+	margin:0 auto;
+	clear:left;
+	position:relative;
+}
+
+	div.wrqpper > p {
+		padding:20px;
+		font-size:18px;
+	}
+
+div.header {
+	border-style:none;
+	background-color:transparent;
+	position:relative;
+}
+
+
+#tweets {
+	float:left;
+	padding:20px 20px 20px 40px;
+	width:320px;
+}
+#feeds {
+	float:right;
+	padding:20px 40px 20px 20px;
+	width:320px;
+}
+
+#tweets div.description,
+#feeds div.description {
+	padding:5px 0 20px 0;
+	color:#666;
+}
+
+#tweets p,
+#feeds p {
+	line-height:2.2em;
+}
+
+#tweets p a,
+#feeds p a {
+	float:right;
+	display:inline;
+}
+
+#tweets p span,
+#feeds p span {
+	float:left;
+	display:inline;
+	clear:left;
+	line-height:2em;
+}
+
+
+#listings {
+	clear:left;
+	padding:30px 40px;
+}
+
+	#listings h3 {
+		color:#555;
+		padding-top:20px;
+		font-size: 16px;
+		letter-spacing: -1px;
+		background-color:#fff;
+	}
+
+	div.listings_block {
+		background-color:#f3f3f3;
+	}
+	
+	div.listings_block div.listing_block_header {
+		color:#999;
+		font-size:11px;
+		text-align:right;
+		padding:0 0 6px 0;	
+		background-color: #fff;
+		background: #fff url(/images/triangle_light_grey.png) no-repeat 20px bottom;
+		line-height:24px;
+		margin-bottom:15px;
+	}	
+	
+	#listings a.twitter_link {
+		margin:0 2px;
+	}
+
+	div.listings_block p {
+		padding:0 15px;
+		display:block;
+	}
+
+	div.listings_block p:last-child {
+		padding-bottom:15px;
+	}
+	
+	a.ticket_link {
+		display:block;
+		font-size:13px;
+		text-decoration:none;
+		color:#222;
+		padding:4px 10px;
+		white-space:nowrap;
+		border-left:dotted 2px transparent;
+		border-bottom:solid 1px transparent;
+	}
+
+	a.ticket_link:hover {
+		background-color:#D2B65D;
+		border-bottom:solid 1px #897037;
+		border-left:dotted 2px #897037;
+		border-right:dotted 2px #897037;
+	}
+
+
+	
+#footer {
+	clear: left;
+	background-color:#e4e4e4;
+	padding:10px;
+	border-style:none;
+	text-align:right;
+}
+#footer a {
+	color:#999;
+	text-decoration:none;
+}
+	
+	#footer a:hover {
+		color:#444;
+		text-decoration:none;
+	}
+
